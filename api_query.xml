@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSearchLyricResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.chartlyrics.com/">
+  <SearchLyricResult>
+    <TrackId>0</TrackId>
+    <LyricChecksum>83d0c356836b5c756bb37ce87239df5b</LyricChecksum>
+    <LyricId>43</LyricId>
+    <SongUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg/Who%27ll+Stop+the+Rain.aspx</SongUrl>
+    <ArtistUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg.aspx</ArtistUrl>
+    <Artist>Creedence Clearwater Revival</Artist>
+    <Song>Who'll Stop the Rain</Song>
+    <SongRank>9</SongRank>
+  </SearchLyricResult>
+  <SearchLyricResult>
+    <TrackId>0</TrackId>
+    <LyricChecksum>b7eb4192b92ca107efd4fdcccd7233b4</LyricChecksum>
+    <LyricId>1355</LyricId>
+    <SongUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg/Have+You+Ever+Seen+the+Rain.aspx</SongUrl>
+    <ArtistUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg.aspx</ArtistUrl>
+    <Artist>Creedence Clearwater Revival</Artist>
+    <Song>Have You Ever Seen the Rain</Song>
+    <SongRank>9</SongRank>
+  </SearchLyricResult>
+  <SearchLyricResult>
+    <TrackId>0</TrackId>
+    <LyricChecksum>436bae33ef240399691c0546aa4364bb</LyricChecksum>
+    <LyricId>785</LyricId>
+    <SongUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg/Have+You+Ever+Seen+the+Rain%3f.aspx</SongUrl>
+    <ArtistUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg.aspx</ArtistUrl>
+    <Artist>Creedence Clearwater Revival</Artist>
+    <Song>Have You Ever Seen the Rain?</Song>
+    <SongRank>9</SongRank>
+  </SearchLyricResult>
+  <SearchLyricResult>
+    <TrackChecksum>b109942c852d5a034d9ac5a0fba199ca</TrackChecksum>
+    <TrackId>6729054</TrackId>
+    <LyricId>0</LyricId>
+    <SongUrl>http://www.chartlyrics.com/app/add.aspx?a=239115&amp;t=6729054</SongUrl>
+    <ArtistUrl>http://www.chartlyrics.com/G4rERP3eIkK-5gP57pp76Q.aspx</ArtistUrl>
+    <Artist>Creedence Clearwater Revisited</Artist>
+    <Song>Who'll Stop the Rain</Song>
+    <SongRank>4</SongRank>
+  </SearchLyricResult>
+  <SearchLyricResult>
+    <TrackChecksum>959c6d81ca2f6e4cb2b2491ed0f47866</TrackChecksum>
+    <TrackId>738930</TrackId>
+    <LyricId>0</LyricId>
+    <SongUrl>http://www.chartlyrics.com/app/add.aspx?a=1918&amp;t=738930</SongUrl>
+    <ArtistUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg.aspx</ArtistUrl>
+    <Artist>Creedence Clearwater Revival</Artist>
+    <Song>Who'll Stop the Rain?</Song>
+    <SongRank>3</SongRank>
+  </SearchLyricResult>
+  <SearchLyricResult>
+    <TrackChecksum>ccf965dee9df82f0bc267fc775214797</TrackChecksum>
+    <TrackId>143847</TrackId>
+    <LyricId>0</LyricId>
+    <SongUrl>http://www.chartlyrics.com/app/add.aspx?a=239115&amp;t=143847</SongUrl>
+    <ArtistUrl>http://www.chartlyrics.com/G4rERP3eIkK-5gP57pp76Q.aspx</ArtistUrl>
+    <Artist>Creedence Clearwater Revisited</Artist>
+    <Song>Have You Ever Seen the Rain</Song>
+    <SongRank>2</SongRank>
+  </SearchLyricResult>
+  <SearchLyricResult>
+    <TrackChecksum>b16f01cf2bdee83f15128c1a90bb8a6e</TrackChecksum>
+    <TrackId>4863622</TrackId>
+    <LyricId>0</LyricId>
+    <SongUrl>http://www.chartlyrics.com/app/add.aspx?a=11922&amp;t=4863622</SongUrl>
+    <ArtistUrl>http://www.chartlyrics.com/hDBvm9d7SkSwpdLceMGShA.aspx</ArtistUrl>
+    <Artist>New Grass Revival</Artist>
+    <Song>Four Days of Rain</Song>
+    <SongRank>1</SongRank>
+  </SearchLyricResult>
+  <SearchLyricResult>
+    <TrackChecksum>8b32f32b759a852401e92fc0eebb6461</TrackChecksum>
+    <TrackId>4863628</TrackId>
+    <LyricId>0</LyricId>
+    <SongUrl>http://www.chartlyrics.com/app/add.aspx?a=11922&amp;t=4863628</SongUrl>
+    <ArtistUrl>http://www.chartlyrics.com/hDBvm9d7SkSwpdLceMGShA.aspx</ArtistUrl>
+    <Artist>New Grass Revival</Artist>
+    <Song>Like a Child in the Rain</Song>
+    <SongRank>1</SongRank>
+  </SearchLyricResult>
+  <SearchLyricResult>
+    <TrackChecksum>229d045019ae5b002cae0368728c3a5e</TrackChecksum>
+    <TrackId>5672748</TrackId>
+    <LyricId>0</LyricId>
+    <SongUrl>http://www.chartlyrics.com/app/add.aspx?a=349383&amp;t=5672748</SongUrl>
+    <ArtistUrl>http://www.chartlyrics.com/Qb1cpEFOxkmOOl0Yo9_c8Q.aspx</ArtistUrl>
+    <Artist>Sam Miltich and The Clearwater Hot Club</Artist>
+    <Song>May Rain</Song>
+    <SongRank>1</SongRank>
+  </SearchLyricResult>
+  <SearchLyricResult xsi:nil="true" />
+</ArrayOfSearchLyricResult>

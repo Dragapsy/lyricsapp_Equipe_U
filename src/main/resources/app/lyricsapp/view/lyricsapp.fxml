@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<?import java.lang.Integer?>
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800"
+          prefWidth="1000" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="app.lyricsapp.controller.LyricsAppController">
+
+    <VBox fx:id="searchPage">
+
+        <HBox fx:id="searchPageHeader" GridPane.rowIndex="0">
+            <VBox fx:id="titleArtistSearchBox" GridPane.columnIndex="0">
+                <Label>Titre</Label>
+                <TextField fx:id="titleInput"/>
+                <Label>Artiste</Label>
+                <TextField fx:id="artistInput"/>
+                <Button fx:id="titleArtistSearchButton" onMouseClicked="#titleArtistSearchButtonClicked">Rechercher</Button>
+            </VBox>
+            <VBox fx:id="lyricsSearchBox" GridPane.columnIndex="1">
+                <Label>Paroles</Label>
+                <TextField fx:id="lyricsInput"/>
+                <Button fx:id="lyricsSearchButton" onMouseClicked="#lyricsSearchButtonClicked">Rechercher</Button>
+            </VBox>
+            <VBox>
+            <Label>Rang Minimal</Label>
+            <ChoiceBox fx:id="rankSelection">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <Integer fx:value="0" />
+                        <Integer fx:value="1" />
+                        <Integer fx:value="2" />
+                        <Integer fx:value="3" />
+                        <Integer fx:value="4" />
+                        <Integer fx:value="5" />
+                        <Integer fx:value="6" />
+                        <Integer fx:value="7" />
+                        <Integer fx:value="8" />
+                        <Integer fx:value="9" />
+                        <Integer fx:value="10" />
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            </VBox>
+            <Button fx:id="accessFavoriteListButton" GridPane.columnIndex="2" onMouseClicked="#accessFavoriteListButtonClicked">
+                favoris
+            </Button>
+                <VBox GridPane.columnIndex="3">
+                    <Button fx:id="showHelpButton" onMouseClicked="#showHelpButtonClicked">aide ?</Button>
+                    <Button fx:id="hideHelpButton" onMouseClicked="#hideHelpButtonClicked">reduire</Button>
+                </VBox>
+            <VBox>
+                <ScrollPane>
+                    <VBox fx:id="helpBox"/>
+                </ScrollPane>
+            </VBox>
+        </HBox>
+
+        <VBox fx:id="searchPageFooter" GridPane.rowIndex="1">
+            <Label fx:id="labelSearchResults">Votre Recherche:</Label>
+            <ScrollPane>
+                <VBox fx:id="searchResultsBox"/>
+            </ScrollPane>
+        </VBox>
+
+    </VBox>
+
+    <VBox fx:id="favoritePage">
+
+        <HBox>
+            <Button fx:id="returnButtonInFavorite" onMouseClicked="#returnButtonClicked">Retour</Button>
+            <VBox>
+                <Label>Mes favoris:</Label>
+                <ScrollPane>
+                    <VBox fx:id="favoriteSongsBox"/>
+                </ScrollPane>
+            </VBox>
+            <VBox>
+                <Label>Artistes favoris:</Label>
+                <ScrollPane>
+                    <VBox fx:id="favoriteArtistsBox"/>
+                </ScrollPane>
+            </VBox>
+        </HBox>
+
+    </VBox>
+
+    <VBox fx:id="songPage">
+
+        <HBox fx:id="songPageHeader" GridPane.rowIndex="0">
+            <VBox fx:id="buttonsInSong" GridPane.columnIndex="0">
+                <Button fx:id="returnButtonInSong" onMouseClicked="#returnButtonClicked">Retour</Button>
+                <Button fx:id="accessFavoriteListButtonInSong" onMouseClicked="#accessFavoriteListButtonClicked">Favoris</Button>
+            </VBox>
+            <VBox fx:id="songArtistTitleBox" GridPane.columnIndex="1">
+                <Label fx:id="title"/>
+                <Label fx:id="artist"/>
+            </VBox>
+            <VBox GridPane.columnIndex="2">
+                <Button fx:id="addFavoritesButton">+</Button>
+                <Button fx:id="deleteFavoritesButton">suprimer</Button>
+            </VBox>
+        </HBox>
+
+        <VBox GridPane.rowIndex="1">
+            <Label>Paroles:</Label>
+            <ScrollPane>
+                <VBox fx:id="lyricsBox"/>
+            </ScrollPane>
+        </VBox>
+
+    </VBox>
+
+</GridPane>
